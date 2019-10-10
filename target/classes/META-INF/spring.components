@@ -1,0 +1,7 @@
+#
+#Thu Oct 10 09:32:49 CEST 2019
+com.mlutecki.demo.entity.Instructor=javax.persistence.Entity,javax.persistence.Table
+com.mlutecki.demo.entity.Review=javax.persistence.Entity,javax.persistence.Table
+com.mlutecki.demo.entity.Course=javax.persistence.Entity
+com.mlutecki.demo.entity.InstructorDetail=javax.persistence.Entity,javax.persistence.Table
+com.mlutecki.demo.entity.Student=javax.persistence.Entity,javax.persistence.Table
