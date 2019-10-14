@@ -1,4 +1,4 @@
-package com.mlutecki.demo.model;
+package com.mlutecki.aopDemo.model;
 
 import java.util.Date;
 
