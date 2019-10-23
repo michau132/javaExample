@@ -13,15 +13,20 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
 public class CustomerRestController {
 
-
     @Autowired
     private CustomerDAO customerDAO;
+
+    @GetMapping("/")
+    public String getLogin() {
+        return "jestem logine";
+    }
 
 
     @GetMapping("/customers")
